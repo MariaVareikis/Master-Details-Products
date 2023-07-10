@@ -1,0 +1,60 @@
+form {
+    width: 350px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+}
+
+input,
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 50% !important;
+    margin: 30px auto;
+    backdrop-filter: blur(10px);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Ink Free;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(81, 81, 230);
+    font-size: 65px;
+}
+
+h2 {
+    font-family: Impact;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(98, 98, 233);
+
+
+}
+
+body {
+    background-image: url(assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#categoryBox {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
